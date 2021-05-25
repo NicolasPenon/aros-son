@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aros & Son CRM</title>
   </head>
-
-
   <body>
-
-    <header>
-
-    </header>
+<form action="frontpage.php">
+  <input type="submit" value="Fortsæt">
+</form>
 
   </body>
 </html>
