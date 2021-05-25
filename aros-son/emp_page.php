@@ -12,10 +12,10 @@
       ?>
 
          <div id="box1">
-           <img src="img/profile.jpg" class="pb"
+           <img src="img/profile.png" class="pb"
            <img align="left">
-       <h1> Medarbejder 1</h1>
-       <p> Account Manager
+           <h1> Medarbejder 1</h1>
+           <p> Account Manager
          <br>
          Tlf 20202020
       </p>
@@ -51,11 +51,14 @@
       Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
     </div>
 
+      <div id="box8">
+        Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
+      </div>
 
-
-
-
-
-
+        <div id="box9">
+          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde <br>
+          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde <br>
+          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
+    </div>
    </body>
  </html>

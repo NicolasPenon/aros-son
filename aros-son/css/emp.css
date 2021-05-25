@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #box1 {
   text-align: right;
   background-color: #202020;
@@ -9,8 +13,8 @@
 }
 
 .pb {
-  width: 90px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -20,10 +24,11 @@
 #box2 {
   background-color: #CCCC00;
   color: black;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  font-size: 25px;
 }
 
 #box3 {
@@ -63,6 +68,24 @@ padding-bottom: 10px;
 }
 
 #box7 {
+background-color: #202020;
+color: white;
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+}
+
+#box8 {
+background-color: #CCCC00;
+color: black;
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+}
+
+#box9 {
 background-color: #202020;
 color: white;
 padding-top: 10px;
