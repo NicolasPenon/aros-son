@@ -1,1 +1,52 @@
+header {
+  align-content: center;
+  background-color: black;
+  margin:0;
+}
+body {
+  margin: 0px;
+}
+img {
+  display:inline-block;
+  width:40px;
+  padding-top: 15px;
+}
+#div_menu {
+  display:inline-block;
+}
+#div_search {
+  display:inline-block;
+  vertical-align:middle;
+  padding-bottom: 15px;
 
+}
+#div_notif {
+  display:inline-block;
+
+}
+#div_profile {
+  display:inline-block;
+  float:right;
+
+}
+#menu {
+  width:40px;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+#notification {
+  width:40px;
+  height:auto;
+  padding-left: 10px;
+}
+#search {
+  width:130px;
+}
+#profile {
+  padding-top:10px;
+  width:40px;
+  height:auto;
+
+}
