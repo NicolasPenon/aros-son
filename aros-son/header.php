@@ -1,4 +1,5 @@
 <header>
+  <link rel="stylesheet" href="css/design.css">
   <form action="menu.php">
     <input id="menu" type="image" src="img/menu.jpg">
   </form>
