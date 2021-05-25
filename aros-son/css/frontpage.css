@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+#forside_div {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+#sager_div {
+  background-color: yellow;
+  color: dimgray;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+#scrollmenu {
+  background-color: #202020;
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+#opgaver_div {
+  color: white;
+  width: 100px;
+  border: 2px solid yellow;
+  padding: 20px;
+  margin: 10px;
+  display:inline-block;
+  text-align: center;
+}
+#opgaver_div:hover {
+  background-color: #323232
+}
