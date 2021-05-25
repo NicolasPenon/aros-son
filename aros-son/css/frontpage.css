@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: #303030
 }
 #forside_div {
   background-color: black;
@@ -8,28 +9,68 @@ body {
   padding: 1px;
   margin: 0px;
 }
+
 #sager_div {
-  background-color: yellow;
+  background-color: #f5c71a;
   color: dimgray;
   text-align: center;
   padding: 1px;
   margin: 0px;
 }
-#scrollmenu {
+
+#scrollmenu1_div {
   background-color: #202020;
   overflow: auto;
   overflow-x: scroll;
   white-space: nowrap;
 }
+
 #opgaver_div {
   color: white;
   width: 100px;
-  border: 2px solid yellow;
+  height: 150px;
+  border: 2px solid #f5c71a;
   padding: 20px;
   margin: 10px;
   display:inline-block;
   text-align: center;
 }
+
 #opgaver_div:hover {
-  background-color: #323232
+  background-color: #303030
+}
+
+#break_div {
+  height: 5px;
+  background-color: #202020
+}
+
+#nyhedsheader_div {
+  background-color: #eed202;
+  color: dimgray;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+#scrollmenu2_div {
+  background-color: #303030;
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+#nyheder_div {
+  color: white;
+  width: 100px;
+  height: 150px;
+  border: 2px solid #eed202;
+  padding: 20px;
+  margin: 10px;
+  display:inline-block;
+  text-align: center;
+}
+
+#nyheder_div:hover {
+  background-color: #404040
 }
