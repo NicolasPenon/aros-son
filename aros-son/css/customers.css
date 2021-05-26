@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+#kunder {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+#checkboxes {
+  background-color: #f5c71a;
+  color: black;
+}
+
+.container {
+}
+
+#customer1 {
+  background-color: #252525;
+  color: white;
+  padding: 10px;
+}
+
+#customer2 {
+  background-color: #f5c71a;
+  color: black;
+  padding: 10px;
+}
+
+#customer3 {
+  background-color: #252525;
+  color: white;
+  padding: 10px;
+}
+
+#customer4 {
+  background-color: #f5c71a;
+  color: black;
+  padding: 10px;
+}
+
+#customer5 {
+  background-color: #303030;
+  color: white;
+  padding: 10px;
+}
+
+#customer6 {
+  background-color: #eed202;
+  color: black;
+  padding: 10px;
+}
+
+#customer7 {
+  background-color: #303030;
+  color: white;
+  padding: 10px;
+}
+
+#customer8 {
+  background-color: #eed202;
+  color: black;
+  padding: 10px;
+}
+
+#customer9 {
+  background-color: #353535;
+  color: white;
+  padding: 10px;
+}
+
+#customer10 {
+  background-color: #eee600;
+  color: black;
+  padding: 10px;
+}
+
+#customer11 {
+  background-color: #353535;
+  color: white;
+  padding: 10px;
+}
+
+#customer12 {
+  background-color: #eee600;
+  color: black;
+  padding: 10px;
+}
+
+#customer13 {
+  background-color: #404040;
+  color: white;
+  padding: 10px;
+}
+
+#customer14 {
+  background-color: #eee600;
+  color: black;
+  padding: 10px;
+}
+
+#customer15 {
+  background-color: #404040;
+  color: white;
+  padding: 10px;
+}
+
+#customer16 {
+  background-color: #eee600;
+  color: black;
+  padding: 10px;
+}
