@@ -1,13 +1,33 @@
 body {
   color:white;
   margin:0px;
+  font-size: 30px;
 }
 img {
     width:50px;
     height:50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    vertical-align:middle;
+    float:left;
 }
 div {
   height: 87.88px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  text-align:right;
+}
+.ltext {
+  margin-top: 200px;
+
+  padding-left: 10px;
+}
+.rtext {
+  float:right;
+  padding-top:25px;
+  padding-right: 10px;
 }
 .menu_box {
   border-bottom: solid 3px;
@@ -44,4 +64,8 @@ div {
 .signout_box {
   border-bottom: solid 3px;
   border-bottom-color: yellow;
+}
+.menu_pic {
+  float:right;
+  padding-right:20px;
 }

@@ -5,7 +5,7 @@
       <a id="menu" href="menu.php"><img src="img/menu.png"></a>
   </div>
   <div id="div_search">
-    <form action="account_list.php" method="GET">
+    <form action="account_list.php" method="post">
       <input id="search" name="search" type="text" placeholder="Søg her">
       <input id="submit" type="submit" value="Søg">
     </form>
