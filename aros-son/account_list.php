@@ -23,6 +23,7 @@ if(isset($_POST['search'])) {
   }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -31,8 +32,24 @@ if(isset($_POST['search'])) {
     <title></title>
   </head>
   <body>
-    <div class="kundeliste">
-      Kundeliste
+    <div id="kunder">
+      <h1>Kunder</h1>
+    </div>
+
+    <div id="checkboxes">
+      <form>
+        <input type="checkbox" name="group" value="Alle">
+        <label for="Alle">Alle</label>
+        <input type="checkbox" name="group" value="Enterprise">
+        <label for="Alle">Enterprise</label>
+        <input type="checkbox" name="group" value="Large">
+        <label for="Alle">Large</label>
+        <br>
+        <input type="checkbox" name="group" value="Medium">
+        <label for="Alle">Medium</label>
+        <input type="checkbox" name="group" value="Small">
+        <label for="Alle">Small</label>
+      </form>
     </div>
     <?php print("$output");?>
 

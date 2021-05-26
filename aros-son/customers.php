@@ -1,3 +1,29 @@
+<?php
+
+include('header.php');
+include('functions.php');
+$output='';
+
+if(isset($_POST['search'])) {
+  $searchq = $_POST['search'];
+
+  $query = mysqli_query($conn,"SELECT * FROM accounts WHERE name LIKE '%$searchq%'");
+  $count = mysqli_num_rows($query);
+  if($count==0) {
+    $output='';
+  }else{
+    while($row=mysqli_fetch_array($query)) {
+      $name=$row['name'];
+      $cvr=$row['cvr'];
+      $segment=$row['segment'];
+
+      $output .= '<a href="account.php>"<div class="name_div"> '.$name.'</div><div class="cvr_div"> '.$cvr.'</div><div class="segment_div">'.$segment.'</div></a>';
+
+    }
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,10 +33,7 @@
     <link rel="stylesheet" href="css/customers.css">
   </head>
   <body>
-    <?php
-    include('header.php');
-    include('functions.php');
-    ?>
+
 
     <div id="kunder">
       <h1>Kunder</h1>
@@ -33,72 +56,55 @@
     </fieldset>
   </div>
 
-<div class="container">
+<?php print("$output");?>
 
-    <div id="customer1">
-      ssssss
-    </div>
+<div id="customer1">
+</div>
 
-    <div id="customer2">
-      sssss
-    </div>
+<div id="customer2">
+</div>
 
-    <div id="customer3">
-      sssss
-    </div>
+<div id="customer3">
+</div>
 
-    <div id="customer4">
-      ssss
-    </div>
+<div id="customer4">
+</div>
 
-    <div id="customer5">
-          ssss
-    </div>
+<div id="customer5">
+</div>
 
-    <div id="customer6">
-          ssss
-    </div>
+<div id="customer6">
+</div>
 
-    <div id="customer7">
-          ssss
-    </div>
+<div id="customer7">
+</div>
 
-    <div id="customer8">
-          ssss
-    </div>
+<div id="customer8">
+</div>
 
-    <div id="customer9">
-          ssss
-    </div>
+<div id="customer9">
+</div>
 
-    <div id="customer10">
-          ssss
-    </div>
+<div id="customer10">
+</div>
 
-    <div id="customer11">
-          ssss
-    </div>
+<div id="customer11">
+</div>
 
-    <div id="customer12">
-          ssss
-    </div>
+<div id="customer12">
+</div>
 
-    <div id="customer13">
-          ssss
-    </div>
+<div id="customer13">
+</div>
 
-    <div id="customer14">
-          ssss
-    </div>
+<div id="customer14">
+</div>
 
-    <div id="customer15">
-          ssss
-    </div>
+<div id="customer15">
+</div>
 
-    <div id="customer16">
-          ssss
-    </div>
+<div id="customer16">
+</div>
 
-    </div>
   </body>
 </html>

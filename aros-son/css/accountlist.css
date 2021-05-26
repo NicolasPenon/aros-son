@@ -1,9 +1,33 @@
 .name_div {
   display:inline-block;
+  font-size: 20px;
+  padding-right: 10px;
+  text-indent: 10px;
 }
 .cvr_div {
   display:inline-block;
+  font-size: 20px;
+  text-indent: 10px;
 }
 .segment_div {
   display:inline-block;
+  text-indent: 10px;
+}
+
+body {
+  margin: 0px;
+  background-color: #252525;
+}
+
+#kunder {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+#checkboxes {
+  background-color: #f5c71a;
+  color: black;
 }
