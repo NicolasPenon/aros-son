@@ -16,7 +16,7 @@
       <img class="home_pic" src="img/home.png"> <a class="rtext">Forside</a>
     </div>
 
-    <div onclick="location.href='account_list.php';" class="accounts_box">
+    <div onclick="location.href='customers.php';" class="accounts_box">
       <img class="account_pic" src="img/accounts.png"> <a class="rtext">Kunder</a>
     </div>
 
@@ -43,6 +43,6 @@
     <div onclick="location.href='signout.php';" class="signout_box">
       <img class="signout_pic" src="img/signout.png"> <a class="rtext">Log ud</a>
     </div>
-    
+
   </body>
 </html>

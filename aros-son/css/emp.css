@@ -1,5 +1,18 @@
 body {
   margin: 0;
+  background-color: #404040;
+}
+a:link {
+  color:lightblue;
+}
+a:visited {
+  color:lightblue;
+}
+.a_yellow:link {
+  color:black;
+}
+.a_yellow:visited {
+  color:black;
 }
 
 #box1 {
@@ -91,5 +104,5 @@ color: white;
 padding-top: 10px;
 padding-left: 15px;
 padding-right: 15px;
-padding-bottom: 10px;
+padding-bottom: 32px;
 }

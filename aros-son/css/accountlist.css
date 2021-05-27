@@ -1,15 +1,16 @@
 .name_div {
   display:inline-block;
-  font-size: 20px;
+  font-size: 17px;
   padding-right: 10px;
   text-indent: 10px;
 }
 .cvr_div {
   display:inline-block;
-  font-size: 20px;
+  font-size: 17px;
   text-indent: 10px;
 }
 .segment_div {
+  font-size: 17px;
   display:inline-block;
   text-indent: 10px;
 }
@@ -18,8 +19,13 @@ body {
   margin: 0px;
   background-color: #252525;
 }
-
-#kunder {
+a:link {
+  color:lightblue;
+}
+a:visited {
+  color:lightblue;
+}
+#customers {
   background-color: black;
   color: white;
   text-align: center;
@@ -30,4 +36,16 @@ body {
 #checkboxes {
   background-color: #f5c71a;
   color: black;
+}
+.titles {
+  padding-bottom: 20px;
+  border-bottom: solid 2px #f5c71a;
+  color:white;
+  font-size: 20px;
+}
+.cvr {
+  padding-left:80px;
+}
+.segment {
+  float:right;
 }
