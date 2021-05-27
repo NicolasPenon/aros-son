@@ -24,12 +24,12 @@ include('functions.php');
         ?> <div id = "details_div"><h3>Detaljer</h3></div> <?php
         ?> <div id = "activities_div"><h3>Aktiviteter</h3></div> <?php
         ?> <div id = "block_div"> </div> <?php
-        ?> <div id = "cvr_div"><h3> <?php echo 'cvr: ' . '<br>' . $row['cvr'] . '<br>'; ?></h3></div> <?php
-        ?> <div id = "segment_div"><h3> <?php echo 'segment: ' . '<br>' . $row['segment'] . '<br>'; ?></h3></div> <?php
-        ?> <div id = "phone_div"><h3> <?php echo 'phone: ' . '<br>' . $row['phone'] . '<br>'; ?></h3></div> <?php
-        ?> <div id = "address_div"><h3> <?php echo 'address: ' . '<br>' . $row['address'] . '<br>'; ?></h3></div> <?php
-        ?> <div id = "web_div"><h3> <?php echo 'web: ' . '<br>' . $row['web'] . '<br>'; ?></h3></div> <?php
-        ?> <div id = "branch_div"><h3> <?php echo 'branch: ' . '<br>' . $row['branch'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "cvr_div"><h3> <?php echo 'CVR: ' . '<br>' . $row['cvr'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "segment_div"><h3> <?php echo 'Segment: ' . '<br>' . $row['segment'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "phone_div"><h3> <?php echo 'Tlf: ' . '<br>' . $row['phone'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "address_div"><h3> <?php echo 'Adresse: ' . '<br>' . $row['address'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "web_div"><h3> <?php echo 'Hjemmeside: ' . '<br>' . $row['web'] . '<br>'; ?></h3></div> <?php
+        ?> <div id = "branch_div"><h3> <?php echo 'Branche: ' . '<br>' . $row['branch'] . '<br>'; ?></h3></div> <?php
         }
       }
     ?>
@@ -41,16 +41,16 @@ include('functions.php');
     <div class="contacts">
       <a class = "name">Lars Tyndskid</a>
       <a class = "number">58570000</a>
-      <a class = "mail">Tynd@tarmair.dk</a><br>
+      <a class = "mail" href="mailto:Tynd@tarmair.dk">Tynd@tarmair.dk</a><br>
       <a class = "name">Janus Blindstrøm</a>
       <a class = "number">58570001</a>
-      <a class = "mail"></a><br>
-      <a class = "name"></a>
-      <a class = "number"></a>
-      <a class = "mail"></a><br>
-      <a class = "name"></a>
-      <a class = "number"></a>
-      <a class = "mail"></a><br>
+      <a class = "mail" href="mailto:Blind@tarmair.dk">Blind@tarmair.dk</a><br>
+      <a class = "name">Britta Flad</a>
+      <a class = "number">58570002</a>
+      <a class = "mail" href="mailto:Flad@tarmair.dk">Flad@tarmair.dk</a><br>
+      <a class = "name">Gitte Rask</a>
+      <a class = "number">58570003</a>
+      <a class = "mail" href="mailto:Rask@tarmair.dk">Rask@tarmair.dk</a><br>
     </div>
 
   </body>
