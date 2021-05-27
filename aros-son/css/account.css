@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  background-color: #f5c71a;
+}
+
+#name_div {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+#details_div {
+  background-color: #f5c71a;
+  color: dimgray;
+  text-align: center;
+  width: 49.4%;
+  display: inline-block;
+}
+
+#activities_div {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 49.4%;
+}
+
+#block_div {
+  background-color: #f5c71a;
+  width: 100%;
+  height: 30px;
+}
+
+#cvr_div {
+  background-color: #202020;
+  color: white;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#segment_div {
+  background-color: #202020;
+  color: white;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#phone_div {
+  background-color: #f5c71a;
+  color: dimgray;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#address_div {
+  background-color: #f5c71a;
+  color: dimgray;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#web_div {
+  background-color: #202020;
+  color: white;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#branch_div {
+  background-color: #202020;
+  color: white;
+  height: 70px;
+  width: 49.4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#contacts_div {
+  background-color: #f5c71a;
+  color: dimgray;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+
+}
+
+.contacts {
+  background-color: #f5c71a;
+  color: dimgray;
+}
+
+.name {
+  text-align: left;
+  float: left;
+
+}
+
+.mail {
+  float: right;
+  padding-right: 50px;
+}
+.number {
+  float: right;
+  text-align: right;
+}
