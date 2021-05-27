@@ -17,7 +17,7 @@ if(isset($_POST['search'])) {
       $cvr=$row['cvr'];
       $segment=$row['segment'];
 
-      $output .= '<a href="account.php>"<div class="name_div"> '.$name.'</div><div class="cvr_div"> '.$cvr.'</div><div class="segment_div">'.$segment.'</div></a>';
+      $output .= '<a href="account.php"><div class="name_div"> '.$name.'</div><div class="cvr_div"> '.$cvr.'</div><div class="segment_div">'.$segment.'</div></a>';
 
     }
   }
@@ -32,12 +32,13 @@ if(isset($_POST['search'])) {
     <title></title>
   </head>
   <body>
-    <div id="kunder">
+    <div id="customers">
       <h1>Kunder</h1>
     </div>
 
     <div id="checkboxes">
       <form>
+        <fieldset>
         <input type="checkbox" name="group" value="Alle">
         <label for="Alle">Alle</label>
         <input type="checkbox" name="group" value="Enterprise">
@@ -49,8 +50,15 @@ if(isset($_POST['search'])) {
         <label for="Alle">Medium</label>
         <input type="checkbox" name="group" value="Small">
         <label for="Alle">Small</label>
+        </fieldset>
       </form>
     </div>
+    <div class="titles">
+      <a class="name">Virksomhedsnavn </a>
+      <a class="cvr">CVR </a>
+      <a class="segment">Segment </a>
+    </div>
+    <br>
     <?php print("$output");?>
 
   </body>

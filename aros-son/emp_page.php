@@ -1,3 +1,11 @@
+<?php
+  include('header.php');
+  include('functions.php');
+
+  $query = "SELECT name, surname FROM employees WHERE id=34";
+  $employee = mysqli_query($conn, $query);
+
+?>
 <!DOCTYPE html>
  <html lang="en" dir="ltr">
    <head>
@@ -7,58 +15,61 @@
      <link rel="stylesheet" href="css/emp.css">
    </head>
    <body>
-     <?php
-     include('header.php');
-      ?>
+<?php
+ if($employee) {
+   while($row=mysqli_fetch_assoc($employee)) { ?>
+<div id="box1">
+ <img src="img/profile.png" class="pb"
+ <img align="left">
+ <h1> <?php echo $row['name']; echo $row['surname']; ?></h1>
+ <p> Account Manager
+ <br>
+ Tlf 20202020
+  </p>
+</div>
 
-         <div id="box1">
-           <img src="img/profile.png" class="pb"
-           <img align="left">
-           <h1> Medarbejder 1</h1>
-           <p> Account Manager
-         <br>
-         Tlf 20202020
-      </p>
-    </div>
+<div id="box2">
+  <center>
+    Aktiviteter
+  </center>
 
-  <div id="box2">
-    <center>
-      Aktiviteter
-    </center>
-  </div>
-
+</div>
     <div id="box3">
-      @Medarbejder1 har genforhanldet 2-årig kontrakt med Kunde1 </p>
+      <a href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a> har genforhandlet 2-årig kontrakt med @Kunde700. </p>
     </div>
 
     <div id="box4">
-      @Medarbejder2 <br>
-      Hej @Medarbejder1, Kunde1 ønsker at blive kontaktet, tag fat i Gustav
+      <a class="a_yellow" href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>: <br>
+      Holder 5 års jubilæum hos Aros & Søn!
     </div>
 
     <div id="box5">
-      @Medarbejder1 <br>
-      Hej @Medarbejder3, til info så er Kunde3 utilfreds med nuværende løsning
+      <a href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>: <br>
+      Hej @Medarbejder3, til info så er @Kunde3 utilfreds med nuværende løsning.
     </div>
 
     <div id="box6">
       @Gruppe3 <br>
-      En begivenhed er blevet tilføjet til d.30/6-21 (sommerfest)
+      En begivenhed er blevet tilføjet til d.30/6-21 (@Sommerfest)
     </div>
 
     <div id="box7">
       @Medarbejder2 <br>
-      Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
+      Hej <a href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>, @Bo fra @Kunde7 savner et opkald fra dig.
     </div>
 
       <div id="box8">
-        Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
+        <a class="a_yellow" href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>, tilføjede @Karsten som primær kontaktperson til @Kunde38.
       </div>
 
         <div id="box9">
-          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde <br>
-          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde <br>
-          Random fyld ud shit her. En reference til en anden medarbejder eller tilfældig kunde
+          Planlagte møder for <a href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>:  <br>
+          @Kunde503 - 2/8-2021 - Kl 12:00 <br>
+          @Kunde708 - 15/8-2021 - Kl 10:00<br>
+          @Kunde2399 - 30/8-2021 - Kl 14:00
     </div>
+<?php
+  }
+} ?>
    </body>
  </html>
