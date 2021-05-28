@@ -6,7 +6,7 @@
   </div>
   <div id="div_search">
     <form action="account_list.php" method="post">
-      <input id="search" name="search" type="text" placeholder="Søg her">
+      <input id="search" name="search" type="text" placeholder="Søg efter kunder her">
       <input id="submit" type="submit" value="Søg">
     </form>
   </div>

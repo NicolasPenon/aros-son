@@ -29,7 +29,7 @@ if(isset($_POST['search'])) {
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/accountlist.css">
-    <title></title>
+    <title>Kunder</title>
   </head>
   <body>
     <div id="customers">

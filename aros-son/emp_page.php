@@ -2,8 +2,11 @@
   include('header.php');
   include('functions.php');
 
-  $query = "SELECT name, surname FROM employees WHERE id=34";
+  $query = "SELECT name, surname, position FROM employees WHERE id=34";
   $employee = mysqli_query($conn, $query);
+  $query2 = "SELECT name, surname FROM employees WHERE id=16";
+  $employee2 = mysqli_query($conn, $query2);
+  $row2 = mysqli_fetch_assoc($employee2);
 
 ?>
 <!DOCTYPE html>
@@ -11,7 +14,7 @@
    <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title></title>
+     <title>Min profil</title>
      <link rel="stylesheet" href="css/emp.css">
    </head>
    <body>
@@ -22,7 +25,7 @@
  <img src="img/profile.png" class="pb"
  <img align="left">
  <h1> <?php echo $row['name']; echo $row['surname']; ?></h1>
- <p> Account Manager
+ <p> <?php echo $row['position']; ?>
  <br>
  Tlf 20202020
   </p>
@@ -45,7 +48,7 @@
 
     <div id="box5">
       <a href="emp_page.php"><?php echo $row['name']; echo $row['surname']; ?> </a>: <br>
-      Hej @Medarbejder3, til info så er @Kunde3 utilfreds med nuværende løsning.
+      Hej <?php echo $row2['name']; echo $row2['surname']; ?>, til info så er @Kunde3 utilfreds med nuværende løsning.
     </div>
 
     <div id="box6">
