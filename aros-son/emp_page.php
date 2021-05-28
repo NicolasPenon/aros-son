@@ -2,7 +2,7 @@
   include('header.php');
   include('functions.php');
 
-  $query = "SELECT name, surname, position FROM employees WHERE id=34";
+  $query = "SELECT name, surname FROM employees WHERE id=34";
   $employee = mysqli_query($conn, $query);
   $query2 = "SELECT name, surname FROM employees WHERE id=16";
   $employee2 = mysqli_query($conn, $query2);
@@ -25,7 +25,7 @@
  <img src="img/profile.png" class="pb"
  <img align="left">
  <h1> <?php echo $row['name']; echo $row['surname']; ?></h1>
- <p> <?php echo $row['position']; ?>
+ <p> Account Manager
  <br>
  Tlf 20202020
   </p>
